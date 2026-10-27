@@ -1,0 +1,40 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.log
+.streamlit/secrets.toml
+
+# Original course handouts are local documentation, not for public redistribution
+assignment/
+
+# Explorer and local-only files
+Thumbs.db
+.DS_Store
+# Project 3 - Local corpus and datasets
+data/
+prepared_data/
+
+# Generated models and analysis outputs
+artifacts/
+results/
+
+# Temporary patch packages
+_patch_*/
+*.zip
+project3_patch_backups/
+
+# Local Python environments
+venv/
+env/
+
+# Generated caches and temporary files
+*.pkl
+*.pickle
+*.model
+*.tmp
+
+# Local patch installer and handoff documents
+INSTALL_PATCH.py
+PROJECT3_*_README.md
+README_A3A4.md
