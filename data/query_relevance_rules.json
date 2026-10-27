@@ -1,0 +1,52 @@
+[
+  {
+    "id": "Q01", "query": "semaglutide weight loss",
+    "topic": "Semaglutide used for obesity / body-weight outcomes",
+    "all_concepts": [["\\bsemaglutide\\b"], ["\\bobes\\w*\\b", "\\bweight[ -]loss\\b", "\\bbody weight\\b", "\\boverweight\\b", "\\bweight reduction\\b"]]
+  },
+  {
+    "id": "Q02", "query": "tirzepatide glycemic control",
+    "topic": "Tirzepatide and glycemic / diabetes outcomes",
+    "all_concepts": [["\\btirzepatide\\b"], ["\\bglyc\\w*\\b", "\\bglucose\\b", "\\bhba1c\\b", "\\bdiabet\\w*\\b"]]
+  },
+  {
+    "id": "Q03", "query": "GLP-1 cardiovascular outcomes",
+    "topic": "GLP-1 pathway and cardiovascular outcomes",
+    "all_concepts": [["\\bglp[ -]?1\\b", "\\bglucagon[ -]like peptide[ -]?1\\b", "\\bglp1ra\\b"], ["\\bcardiovascular\\b", "\\bheart failure\\b", "\\bstroke\\b", "\\bmyocardial\\b", "\\batheroscler\\w*\\b"]]
+  },
+  {
+    "id": "Q04", "query": "GLP-1 chronic kidney disease",
+    "topic": "GLP-1 and renal / kidney effects",
+    "all_concepts": [["\\bglp[ -]?1\\b", "\\bsemaglutide\\b", "\\bliraglutide\\b", "\\bglucagon[ -]like peptide\\b"], ["\\bkidney\\b", "\\brenal\\b", "\\bnephro\\w*\\b", "\\balbuminuri\\w*\\b"]]
+  },
+  {
+    "id": "Q05", "query": "GLP-1 gastrointestinal adverse events",
+    "topic": "GLP-1 related gastrointestinal safety effects",
+    "all_concepts": [["\\bglp[ -]?1\\b", "\\bsemaglutide\\b", "\\btirzepatide\\b", "\\bliraglutide\\b"], ["\\bgastrointestinal\\b", "\\bnausea\\b", "\\bvomit\\w*\\b", "\\bdiarrh\\w*\\b"]]
+  },
+  {
+    "id": "Q06", "query": "diabetic retinopathy GLP-1",
+    "topic": "Diabetes-related retinal outcomes involving GLP-1",
+    "all_concepts": [["\\bretinopath\\w*\\b", "\\bretinal\\b"], ["\\bglp[ -]?1\\b", "\\bsemaglutide\\b", "\\bdiabet\\w*\\b"]]
+  },
+  {
+    "id": "Q07", "query": "incretin insulin secretion",
+    "topic": "Incretin pathway and insulin/beta-cell responses",
+    "all_concepts": [["\\bincretin\\w*\\b", "\\bglp[ -]?1\\b", "\\bgip\\b"], ["\\binsulin secretion\\b", "\\bbeta[ -]?cell\\w*\\b", "\\bβ[ -]?cell\\w*\\b", "\\binsulin release\\b"]]
+  },
+  {
+    "id": "Q08", "query": "GLP-1 Alzheimer's neuroprotection",
+    "topic": "GLP-1-related neurodegenerative / cognitive research",
+    "all_concepts": [["\\bglp[ -]?1\\b", "\\bsemaglutide\\b", "\\bliraglutide\\b"], ["\\balzheimer\\w*\\b", "\\bcognit\\w*\\b", "\\bneuroprotect\\w*\\b", "\\bparkinson\\w*\\b", "\\bneurodegenerat\\w*\\b"]]
+  },
+  {
+    "id": "Q09", "query": "GLP-1 pancreatitis safety",
+    "topic": "GLP-1-related pancreatic safety research",
+    "all_concepts": [["\\bglp[ -]?1\\b", "\\bsemaglutide\\b", "\\btirzepatide\\b", "\\bliraglutide\\b"], ["\\bpancreatitis\\b", "\\bpancreatic\\b"]]
+  },
+  {
+    "id": "Q10", "query": "GLP-1 pregnancy gestational diabetes",
+    "topic": "GLP-1 agents and pregnancy / gestational topics",
+    "all_concepts": [["\\bglp[ -]?1\\b", "\\bsemaglutide\\b", "\\bliraglutide\\b", "\\btirzepatide\\b"], ["\\bpregnan\\w*\\b", "\\bgestational\\b", "\\breproduct\\w*\\b"]]
+  }
+]
